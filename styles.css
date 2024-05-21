@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+*{
+	margin:0px;
+	padding:0px;
+}
+.container{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+}
+
+img{
+	width:400px;
+	height:200px;
+	object-fit:cover;
+}
+
+.description-section{
+	
+}
+.para{
+	margin:10px 0px 10px 20px;
+}
+.btn{
+	padding:10px;
+	background-color:red;
+	color:white;
+	border-radius:8px;
+	border:none;
+}
